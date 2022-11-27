@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    line-height: 1.7;
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.divider {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+a {
+    text-decoration: none;
+}
+
+.border-hover {
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+}
+
+.border-hover:hover {
+    border-color: var(--bs-info);
+}
+
+/* Intro Section */
+.intro-section p {
+    max-width: 560px;
+}
+
+/* Navbar */
+.navbar {
+    transition: all 0.4s ease-out;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--bs-info);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
+/* Service */
+.service .icon {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: var(--bs-info);
+    font-size: 34px;
+    box-shadow: inset 2px 2px 8px rgba(55, 94, 148, 0.3), inset -3px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+/* Footer */
+.btn-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-grid;
+    align-content: center;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+
+
+
